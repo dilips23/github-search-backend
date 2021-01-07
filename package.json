@@ -1,0 +1,26 @@
+{
+  "name": "github-search-backend",
+  "version": "1.0.0",
+  "description": "RestFul CRUD operation services for the Github-Search-App.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dilips23/github-search-backend.git"
+  },
+  "author": "Dillip Kumar Senapati",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dilips23/github-search-backend/issues"
+  },
+  "homepage": "https://github.com/dilips23/github-search-backend#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.9.2",
+    "mongoose": "^5.11.10"
+  }
+}
